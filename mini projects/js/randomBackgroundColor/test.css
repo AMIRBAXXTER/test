@@ -1,0 +1,13 @@
+body{
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: color 500ms ease;
+}
+#text {
+    color: aqua;
+    transition: color 500ms ease;
+    font-size: 100px;
+}

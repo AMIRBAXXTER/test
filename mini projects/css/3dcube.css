@@ -1,0 +1,48 @@
+html{
+    font-size: 100%;
+}
+body{
+padding: 20rem;
+}
+.continer{
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+}
+.cube{
+    position: relative;
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    animation: runcube 5s infinite;
+}
+.cube_face{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.cube_face_front{background:rgba(255, 0, 0, 0.5);}
+.cube_face_back{background:rgba(255, 255, 0, 0.5);}
+.cube_face_top{background:rgba(255, 0, 255, 0.5);}
+.cube_face_bottom{background:rgba(0, 255, 0, 0.5);}
+.cube_face_left{background:rgba(0, 0, 255, 0.5);}
+.cube_face_right{background:rgba(0, 255, 255, 0.5);}
+.cube_face_bottom{transform: rotateX(-90deg) translateZ(100px);}
+.cube_face_top{transform: rotateX(90deg) translateZ(100px);}
+.cube_face_right{transform: rotateY(90deg) translateZ(100px);}
+.cube_face_left{transform: rotateY(-90deg) translateZ(100px);}
+.cube_face_front{transform: rotateY(0) translateZ(100px);}
+.cube_face_back{transform: rotateY(180deg) translateZ(100px);}
+
+@keyframes runcube{
+    from{
+       transform:rotateX(0deg);
+    }
+    to{
+       transform:rotateX(360deg);
+    }
+
+}

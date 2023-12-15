@@ -1,0 +1,69 @@
+html{
+    font-size: 100%;
+    background-color:rgba(184, 53, 145, 0.635);
+}
+body{
+    text-align: center;
+}
+.header{
+    background-color: #183b5b;
+    padding: 1rem 0rem 0.5rem 0rem;
+    width: 100%;
+    height: 8rem;
+    margin-bottom: 0.5rem;
+}
+.nav{
+    background-color: rgb(114, 135, 130);
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0rem;
+}
+.main{
+    display: flex;
+}
+.section{
+    width: calc(66.66% - 1rem);
+    margin-right: 1rem;
+    background-color: rgb(85, 88, 170);
+}
+.aside{
+    width: 33.33%;
+    background-color: rgb(85, 88, 170);
+    margin-left: 1tem;
+
+}
+.box{
+    width: calc(33.33% - 0.5rem);
+    background: #642B73;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 14rem;
+    margin: 0.5rem;
+}
+.rowone, .rowtwo{
+    display: flex;
+}
+.box2{
+    width: calc(100% - 1rem);
+    background:#860b1d;
+    height: 8rem;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+}
+.endline{
+    display: flex;
+    height: 8rem;
+    margin: 0.5rem 0rem;
+}
+.about{
+    width: 33.33%;
+    background: rgb(49, 49, 124);
+}
+.contact{
+    width: calc(66.66% - 0.5rem);
+    margin-right: 0.5rem;
+    background: rgba(24, 24, 181, 0.697);
+}
+.footer{
+    background: rgba(216, 48, 48, 0.783);
+    height: 4rem;
+}

@@ -1,0 +1,115 @@
+html {
+    font-size: 100%;
+}
+@font-face {
+    font-family: "shabnam";
+    src: url(font/shabnam/Shabnam-FD.woff2);
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: #f5f5f5;
+    font-family: "shabnam";
+    font-size: small;
+}
+.container {
+
+    height: 25rem;
+    margin: 3rem 13rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.img{
+    height: 1rem;
+    margin: auto;
+
+}
+h2{font-family: "shabnam";
+    font-size: small;
+    margin-right: 0.5rem;
+    font-weight: 900;
+}
+.showAll{
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: bolder;
+    color: rgb(45, 200, 214);
+    margin: 0.5rem ;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    width: 13.5rem;
+    height: 16rem;
+    box-shadow: .1rem .1rem .4rem rgba(0, 0, 0, 0.142);
+}
+.boxHolder{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.boxImage{
+    height: 7rem;
+    width: 10rem;
+    margin: 1rem 1.8rem;
+}
+.boxText{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 0.7rem;
+    margin: 0 0.3rem;
+    height: 50px;
+}
+.off{
+    width: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: .3rem;
+}
+.offPercent{
+    color: rgb(0, 136, 255);
+    font-weight: bolder;
+    background-color: rgba(74, 182, 182, 0.171);
+}
+.offPrice{
+    text-decoration: line-through;
+    color: darkgrey;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.rateBox{
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+}
+.priceBox{
+    display: flex;
+    align-items: center;
+}
+.boxText2{
+    color: darkgrey;
+    margin: .2rem;
+}
+.rate{
+    font-size: .7rem;
+}
+.star{
+    width: 1rem;
+    height: 1rem;
+    margin-right: .3rem;
+}
+.price{
+    margin-right: .5rem;
+}
