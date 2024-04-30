@@ -13,5 +13,5 @@ while hour != 0 or minute != 0 or second != 0:
         minute = 59
     print(colored(f"{hour} : {minute} : {second}", "red"))
     sleep(1)
-    os.system("cls")
+    os.system("clear")
     second -= 1
