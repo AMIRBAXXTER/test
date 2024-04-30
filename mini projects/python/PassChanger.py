@@ -1,6 +1,6 @@
 from functools import wraps
-users = {"amir": "13761376", "mohadese": "13791379", "havva": "13131313"}
-ban_users = {"mohadese"}
+users = {"amir": "13761376", "reza": "13791379", "ahmad": "13131313"}
+ban_users = {"reza"}
 
 
 def ban_check(func):
