@@ -8,10 +8,10 @@ mydb = mysql.connector.connect(
 )
 mycursor = mydb.cursor()
 sql = "insert into users (first_name,last_name,email,age) values (%s, %s, %s, %s)"
-first_name = "mohadeseh"
-last_name = "pormahdi"
-email = "mps1379@gmail.com.com"
-age = "22"
+first_name = "amir"
+last_name = "ahmadi"
+email = "test@gmail.com.com"
+age = "20"
 val = (first_name, last_name, email, age)
 mycursor.execute(sql, val)
 mydb.commit()
